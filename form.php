@@ -82,6 +82,11 @@ else {
                <td>EMAIL:</td>
                <td><input type = "text" name = "email"></td>
             </tr>
+		
+	    <tr>
+		<td>PHONE:</td>
+		<td><input type = "text" name = "phone"></td>
+	    </tr>
             
             <tr>
                <td>
