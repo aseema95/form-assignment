@@ -16,7 +16,7 @@ try {
 if(! $conn) {
 	die('Could not connect:'. mysql_error());
 }		
-   echo "<h2>Database form Connected<h2>";
+   echo "<h2>Database form Connected successfully<h2>";
 //create a table in the database using sql
 $sql = "CREATE table details(
 	name char(40) NOT NULL,

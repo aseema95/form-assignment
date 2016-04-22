@@ -14,7 +14,7 @@ try {
 if(! $conn) {
 	die('Could not connect:'. mysql_error());
 }		
-   echo "<h2>Database 'form' Connected<h2>";
+   echo "<h2>Database 'form' Connected successfully<h2>";
 $sql = "insert into details(name,age,email)
 values
 ('$_POST[name]','$_POST[age]','$_POST[email]')";
